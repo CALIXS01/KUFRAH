@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kufrah Consulta</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left">
+        <img src="img/Frame 34.png" alt="" />
+        <div id="esquerdo">
+          <div>
+            <h2>Cadastrar</h2>
+            <a>Planta:</a>
+            <div>
+              <label>Espécie da planta:</label>
+              <input
+                type="text"
+                id="nome"
+                placeholder="Digite sua espécie"
+                required
+              />
+            </div>
+
+            <div>
+              <label>Cuidados:</label>
+              <input
+                type="text"
+                id="cuidados"
+                placeholder="Digite os cuidados"
+                required
+              />
+            </div>
+
+            <div>
+              <label>Regamento:</label>
+              <input
+                type="text"
+                id="rega"
+                placeholder="Digite o número de vezes que rega"
+                required
+              />
+            </div>
+
+            <button class="btn" onclick="salvar()">SALVAR</button>
+          </div>
+          <div class="baixo_centro">
+            <img id="left" src="img/Frame 35.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <img id="C" src="img/Frame 10.png" alt="" />
+
+        <div id="direito">
+          <div class="baixo_centro">
+            <img id="right" src="img/Frame 36.png" alt="" />
+          </div>
+
+          <div class="lado2">
+            <h2>Consultar</h2>
+            <a>Planta:</a>
+
+            <div>
+              <label>Espécie da planta:</label>
+              <input
+                type="text"
+                id="busca"
+                placeholder="Digite sua espécie"
+                required
+              />
+            </div>
+
+            <div class="buttons">
+              <button class="btn2" onclick="consultar()">CONSULTAR</button>
+              <button class="btn2" onclick="verTodas()">VER TODAS</button>
+            </div>
+            <div class="listra">
+              <img src="img/Frame 18.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <dialog id="meuDialogo">
+      <div class="titulo-dialog">
+        <span class="linha"></span>
+        <h2>Consulta:</h2>
+      </div>
+
+      <div
+        id="listaPlantas"
+        style="max-height: 300px; overflow-y: auto; margin: 15px 0"
+      ></div>
+
+      <button onclick="fecharDialog()">Fechar</button>
+    </dialog>
+
+    <dialog id="dialogEditar">
+      <div class="titulo-dialog">
+        <span class="linha"></span>
+        <h2>Consulta:</h2>
+      </div>
+
+      <input type="hidden" id="editNomeAntigo" />
+
+      <div class="box-editar">
+        <div>
+          <label>Planta:</label>
+          <input type="text" id="editNome" />
+        </div>
+
+        <div>
+          <label>Cuidados:</label>
+          <input type="text" id="editCuidados" />
+        </div>
+
+        <div>
+          <label>Regamento:</label>
+          <input type="text" id="editRega" />
+        </div>
+      </div>
+
+      <br />
+      <button onclick="salvarEdicao()">Salvar</button>
+      <button type="button" onclick="fecharEditar()">Cancelar</button>
+    </dialog>
+
+    <script src="script2.js"></script>
+  </body>
+</html>

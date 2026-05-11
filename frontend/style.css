@@ -1,0 +1,126 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            --cor-primaria:#616F39;
+            --cor-borda:#3B4323;
+            --cor-texto:#F8EEB4;
+
+            font-family: "K2D", sans-serif;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            background-color: var(--cor-primaria);
+        }
+
+ 
+        .left{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+          
+            padding: 0 60px; 
+        }
+
+ 
+        .header-login{
+            height: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border-left: var(--cor-borda) 20px solid ;
+            border-right: var(--cor-borda) 20px solid ;
+            border-bottom: 8px solid var(--cor-borda);
+        }
+
+        .header-login img{
+            height: 130px;
+        }
+
+        
+        .escreva{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 25px;
+            border: solid 20px;
+            border-color: var(--cor-borda);
+            padding: 30px;
+        }
+
+        .grupo{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        label{
+            color: var(--cor-texto);
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+        input{
+            background-color: var(--cor-texto);
+            border: 3px solid var(--cor-borda);
+            padding: 18px;
+            border-radius: 18px;
+            font-size: 16px;
+
+            box-shadow: -6px 7px 0px rgba(0,0,0,0.25);
+        }
+
+        .botao-area{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .botao{
+            background-color: var(--cor-texto);
+            border: 3px solid var(--cor-borda);
+            padding: 14px 50px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 16px;
+
+            box-shadow: 0px 6px 0px rgba(0,0,0,0.25);
+            transition: 0.2s;
+        }
+
+        .botao:hover{
+            transform: translateY(2px);
+            box-shadow: 0px 3px 0px rgba(0,0,0,0.25);
+        }
+
+      
+        .right{
+            width: 50%;
+            background: url("img/Rectangle 2.png");
+            background-size: cover;
+            background-position: center;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .right img{
+            height: 200px;
+        }
+        .texto{
+            color: var(--cor-texto);
+            display: flex;
+            width: 300px;
+            height: 100px;
+            text-align: justify;
+        }
+

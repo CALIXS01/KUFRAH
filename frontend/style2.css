@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "K2D", sans-serif;
+}
+
+body {
+  background: #1b1919;
+}
+
+.left img {
+  height: 250px;
+  margin: -40px;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  border: 2px solid #1b1919;
+}
+
+.left {
+  width: 47%;
+  background: #616f39;
+  padding: 40px;
+}
+
+#esquerdo {
+  display: flex;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: -9px;
+  font-weight: 500;
+  font-size: 60px;
+  color: #f8eeb4;
+}
+
+.left a {
+  font-size: 55px;
+  font-weight: 500;
+  margin-left: 150px;
+  color: #f8eeb4;
+}
+
+input {
+  height: 40px;
+  margin-bottom: 20px;
+  width: 430px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #f8eeb4;
+  margin-top: 5px;
+  color: #1b1919;
+  outline: none;
+  box-shadow: -11px 15px 5px #3b4323;
+  text-decoration: underline #3b4323;
+  text-decoration-color: #3b4323;
+}
+
+label {
+  font-size: 16px;
+  color: #f8eeb4;
+  display: block;
+}
+
+#left {
+  margin-top: 86px;
+}
+#right {
+  margin-bottom: 13px;
+  padding: 10px;
+}
+
+.baixo_centro img {
+  width: auto;
+  height: 600px;
+  margin-left: 100px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 15px 50px;
+  background: #f8eeb4;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 140px;
+  font-size: 20px;
+  box-shadow: 0 15px 5px #3b4323;
+}
+
+.btn:hover {
+  background-color: #616f39;
+  border: 3px solid #1b1919;
+  color: #f8eeb4;
+}
+.right {
+  width: 53%;
+  background: url("img/green-leaf-texture-leaf-texture-background\ 1.png");
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  color: #f8eeb4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn2 {
+  margin-left: 20px;
+  padding: 15px 40px;
+  background: #f8eeb4;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 20px;
+  box-shadow: 0 15px 5px #1b1919;
+}
+
+.btn2:hover {
+  background-color: #616f39;
+  border: 3px solid #1b1919;
+  color: #f8eeb4;
+}
+.right a {
+  font-size: 55px;
+  font-weight: 500;
+  margin-left: -40px;
+  color: #f8eeb4;
+}
+
+.right img {
+  margin-top: 80px;
+  margin-left: -47px;
+}
+#C {
+  width: 400px;
+  margin-bottom: 23px;
+  margin-left: -47px;
+}
+
+#direito {
+  display: flex;
+  flex-direction: row;
+}
+.lado2 {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  margin-top: -5px;
+  margin-left: 200px;
+}
+
+#busca {
+  box-shadow: 11px 15px 5px #1b1919;
+}
+
+.listra {
+  margin: 260px;
+  margin-top: -10px;
+  margin-bottom: -100vh;
+}
+
+.k2d-thin {
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.k2d-extralight {
+  font-family: "K2D", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.k2d-light {
+  font-family: "K2D", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.k2d-regular {
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.k2d-medium {
+  font-family: "K2D", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.k2d-semibold {
+  font-family: "K2D", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.k2d-bold {
+  font-family: "K2D", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.k2d-extrabold {
+  font-family: "K2D", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.k2d-thin-italic {
+  font-family: "K2D", rsans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.k2d-extralight-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.k2d-light-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.k2d-regular-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.k2d-medium-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.k2d-semibold-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.k2d-bold-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.k2d-extrabold-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+dialog {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  background: #f8eeb4;
+  color: #1b1919;
+  font-family: "K2D", sans-serif;
+  max-width: 500px;
+  width: 90%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+dialog::backdrop {
+  background: rgba(27, 25, 25, 0.8);
+}
+
+dialog h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #616f39;
+}
+
+dialog button {
+  padding: 10px 20px;
+  background: #3b4323;
+  color: #f8eeb4;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 10px;
+  transition: 0.3s ease;
+}
+
+dialog button:hover {
+  background: #f8eeb4;
+  color: #616f39;
+  border: 2px solid #616f39;
+}
+
+#listaPlantas div {
+  background: #616f39;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: #1b1919;
+  font-size: 30px;
+}
+
+#listaPlantas button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+#dialogEditar input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #616f39;
+  border-radius: 4px;
+  outline: none;
+}
+
+#dialogEditar label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #616f39;
+}
+
+#dialogEditar .box-editar {
+  background: #616f39;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+#dialogEditar .box-editar label {
+  color: #1b1919;
+  font-size: 40px;
+}
+
+#dialogEditar .box-editar input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #f8eeb4;
+  color: #1b1919;
+}
+
+.btn-delete {
+  background: #3b4323;
+  color: #f8eeb4;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background: #b93a3a;
+  color: #ffffff;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.titulo-dialog {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.titulo-dialog h2 {
+  margin: 0;
+  font-weight: 600;
+  color: #616f39;
+}
+
+.linha {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #616f39;
+  border-radius: 3px;
+}
+
+.linha::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background: #616f39;
+  border-radius: 3px;
+}
